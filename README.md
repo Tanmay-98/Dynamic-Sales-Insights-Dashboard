@@ -31,11 +31,18 @@ This project analyzes transactional sales data to identify high-performing produ
 
 ---
 
-## 📚 Dataset
+## 📥 Dataset
 
-- Source: *Online Retail II* UCI Dataset  
-- Records e-commerce transactions with:
-  - `Invoice`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `Customer ID`, `Country`
+The dataset used for this project is the **Online Retail II** UCI dataset, which contains records of e-commerce transactions.
+
+Due to file size limitations, the dataset is provided as a ZIP archive:
+
+📦 [`online_retail_II.zip`](./data/online_retail_II.zip)
+
+To use:
+1. Download and unzip the file.
+2. Import `online_retail_II.csv` into your SQL database to begin analysis.
+
 
 ---
 
